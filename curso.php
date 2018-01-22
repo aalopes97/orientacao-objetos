@@ -9,4 +9,5 @@ class Curso
 $curso = new Curso();
 
 $curso->nome = "Algoritimos em Java";
+
 $curso->sala = "B04";

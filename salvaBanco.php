@@ -18,7 +18,7 @@ else{
 $nome = $_POST['nome'];
 $email = $_POST['codigo'];
 
-$sql = "INSERT INTO user (nome, email) VALUES ('".$nome."', 'teste')";
+$sql = "INSERT INTO user (nome, email) VALUES ('".$nome."',  '".$email."')";
 
 if ($conn->query($sql) === TRUE) {
     echo "foi";
